@@ -33,3 +33,6 @@ logs/
 
 # Notebook outputs
 .ipynb_checkpoints/
+
+# Local docs
+CLAUDE.md
