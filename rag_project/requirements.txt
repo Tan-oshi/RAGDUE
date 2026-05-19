@@ -1,0 +1,50 @@
+# Core
+pandas>=2.0.0
+openpyxl>=3.1.0
+numpy>=2.0.0
+
+# Embedding
+sentence-transformers>=5.0.0
+torch>=2.7.0
+transformers>=5.0.0
+
+# Vector DB
+qdrant-client>=1.7.0
+
+# LlamaIndex
+llama-index>=0.14.0
+llama-index-embeddings-huggingface>=0.7.0
+llama-index-vector-stores-qdrant>=0.10.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Async HTTP
+aiohttp>=3.9.0
+
+# LLM - Gemini 2.5 API
+google-generativeai>=0.8.0
+google-genai>=1.0.0
+
+# Vietnamese NLP
+underthesea>=6.0.0
+underthesea_core>=3.3.0
+rank-bm25>=0.2.2
+
+# Web UI
+gradio>=4.0.0
+
+# Evaluation
+ragas>=0.1.0
+langchain-core>=0.1.0
+langchain>=0.1.0
+langchain-google-genai>=0.1.0
+langchain-huggingface>=0.1.0
+jsonref>=1.1.0
+
+# CLI
+typer>=0.9.0
+rich>=13.0.0
+
+# Config
+python-dotenv>=1.0.0

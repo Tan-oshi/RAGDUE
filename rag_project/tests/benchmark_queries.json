@@ -1,0 +1,22 @@
+[
+  {"id": 1,  "query": "Lịch làm việc của hiệu trưởng trong năm vừa rồi",     "type": "year_filter+chairperson", "expected_year": 2025, "expected_chairperson": "Hiệu trưởng"},
+  {"id": 2,  "query": "Tuần này có sự kiện gì",                              "type": "list+general",           "expected_week": "current"},
+  {"id": 3,  "query": "Tháng 3 có cuộc học gì",                             "type": "month_filter",            "expected_month": 3},
+  {"id": 4,  "query": "Họp giao ban do ai chủ trì",                          "type": "who+event",              "expected_event": "giao ban", "expected_type": "who"},
+  {"id": 5,  "query": "Ai tham gia họp phòng ban thứ 6",                    "type": "participants+dow",        "expected_dow": "Thứ Sáu", "expected_type": "who"},
+  {"id": 6,  "query": "Lịch làm việc tháng trước",                           "type": "relative_month",          "expected_month": "previous"},
+  {"id": 7,  "query": "Tuần tới có hoạt động gì",                           "type": "next_week",              "expected_week": "next"},
+  {"id": 8,  "query": "Ai chủ trì họp tuyển dụng tháng 5",                  "type": "chairperson+month",       "expected_month": 5, "expected_event": "tuyển dụng", "expected_type": "who"},
+  {"id": 9,  "query": "Thứ 2 tuần này có lịch gì",                          "type": "dow+week",               "expected_dow": "Thứ Hai", "expected_week": "current"},
+  {"id": 10, "query": "Những hoạt động nào diễn ra vào thứ 6",              "type": "list+dow",               "expected_dow": "Thứ Sáu"},
+  {"id": 11, "query": "Lịch công tác nội bộ tuần 40",                       "type": "scope+week",             "expected_scope": "nội bộ"},
+  {"id": 12, "query": "Cho tôi xem các cuộc họp trong tháng",                "type": "list+month",             "expected_month": "current"},
+  {"id": 13, "query": "Có bao nhiêu sự kiện tuần này",                      "type": "count",                  "expected_type": "count"},
+  {"id": 14, "query": "Họp giao ban phòng ban thứ 6 do ông nào chủ trì",    "type": "who+event+dow",          "expected_event": "giao ban", "expected_dow": "Thứ Sáu", "expected_type": "who"},
+  {"id": 15, "query": "Địa điểm tổ chức các sự kiện tuần này",              "type": "where",                  "expected_type": "where"},
+  {"id": 16, "query": "Lịch năm 2025",                                       "type": "year_filter",            "expected_year": 2025},
+  {"id": 17, "query": "Sự kiện nào vào ngày 15 tháng 5",                   "type": "date",                  "expected_day": 15, "expected_month": 5},
+  {"id": 18, "query": "Trường có hoạt động gì trong học kỳ 2",               "type": "semester",              "expected_type": "list"},
+  {"id": 19, "query": "Tháng này có đào tạo gì không",                       "type": "list+month+event",       "expected_month": "current", "expected_event": "đào tạo"},
+  {"id": 20, "query": "Phó hiệu trưởng có lịch họp gì tuần tới",            "type": "chairperson+week",       "expected_week": "next", "expected_chairperson": "Phó Hiệu trưởng", "expected_type": "list"}
+]
