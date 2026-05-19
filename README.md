@@ -37,26 +37,8 @@ python -m src.main serve --port 8000 # FastAPI
 
 ## Kiến trúc
 
-```
-User → Gradio / FastAPI / CLI
-                │
-         QueryParser (Gemini 2.5 Flash)
-                │ parse: temporal, chairperson, event type
-                │
-    ┌───────────┴───────────┐
-    │                       │
-Retrieval               Generation
-    │                       │
- ┌──┴──┐              Gemini 2.5 Flash
- │     │                   │
-Qdrant BM25            cite sources
- │     │                   │
- └──┬──┘                   │
-  RRF k=60                │
-    │                     │
-    └────────┬────────────┘
-             │ answer
-```
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/a734fdd2-7109-4684-b5a3-23bcaae81ef0" />
+
 
 ## Cấu trúc dự án
 
