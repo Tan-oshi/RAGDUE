@@ -134,17 +134,6 @@ Các tham số chính trong [src/config.py](src/config.py):
 | `CHUNK_OVERLAP` | `90` | Overlap giữa các chunk |
 | `QDRANT_COLLECTION` | `schedule_chunks` | Tên collection Qdrant |
 
-## Benchmark
-
-```bash
-# Chạy benchmark 20 test queries
-.venv\Scripts\python.exe tests/run_benchmark.py --output tests/metrics.json
-
-# So sánh baseline vs post-refactor
-.venv\Scripts\python.exe tests/analyze_results.py \
-    --baseline tests/baseline_metrics.json \
-    --current tests/post_refactor_metrics.json
-```
 
 ## Tech stack
 
